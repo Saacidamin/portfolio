@@ -4,24 +4,96 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>portfolio</title>
 	<link rel="style-sheet" href="styles/css/styles.css"
-	<title>Document</title>
 </head>
 <!-- body tag -->
 <body>
 	<!-- header tag -->
 	<header>
 	<!-- nav bar -->
-		<nav> 
-			<div></div> 
-			<div></div>
-			<div></div>
+		<nav class="nav-container"> 
+			<div class="nav-link">
+				<a href="#about-me" id="anchor-about-me">about me</a>
+			</div> 
+			<div class="nav-link">
+				<a href="#projects" id="anchor-projects">projects</a>
+			</div>
+			<div class="nav-link">
+				<a href="#contact" id="anchor-contact">contact</a>
+			</div>
 		</nav>
 	</header>
+	<hr />
+
 	<!-- main -->
 	<main>
-	<section id="about-me"></section>
-	<section id="projects"></section>
+		<!-- about me section -->
+	<section id="about-me">
+		<!-- about me container -->
+		<div>
+			<!-- about me name -->
+			<div><h1 class="about-me-name">Saacid Amin</h1></div>
+			<!-- about me header -->
+			<div>
+				<h2 class="about-header">personal statement</h2>
+			</div>
+			<!-- paragraph about me -->
+			<div>
+				<p class="statement-info">i am a highly motivated student who is currently studying a coding bootcamp to enhance my skillset and knowledge. this portfolio will showcase what i have learnt in the course and my overall skills and achievement. </p>
+			</div>
+			<!-- skills header -->
+			<div><h3 class="skills">skills set</h3></div>
+			<!-- list of skills -->
+			<div>
+				<ul class="list of skills">
+					<li>ability to problem solve</li>
+					<li>ability to communicate with classmates</li>
+					<li>time management from working fulltime and doing the bootcamp</li>
+				</ul>
+			</div>
+			<!-- image of me -->
+			<div class="image of me">
+				<img src="./styles/assets/images/me.jpg" width="300px" height="380px">
+			</div>
+			<!-- close of container and section -->
+		</div>
+	</section>
+	<hr />
+	<section id="projects">
+		<!-- projects header -->
+		<h2 class="projects-header">projects</h2>
+	<!--container for first project card -->
+	<div>
+		<!-- first project card -->
+		<div>
+			<!-- first project card title -->
+			<h3 class="project-title">marketing agency refractor project</h3>
+			<!-- first project info -->
+			<p class="project-info">this project was about making a marketing agencies website more accessible with semantic html.</p>
+			<!-- first project image -->
+			<div class="project-image">
+			<a href="https://github.com/Saacidamin/marketing-refactoring/tree/dev">
+				<img src="./styles/assets/images/seo.jpg">
+			</a>
+			</div>
+		</div>
+	</div>
+	<!-- container for rest of the projects -->
+	<div class="all-projects">
+		<!-- second project card -->
+		<div class="project-card">
+			<!-- second title -->
+			<h3 class="project-title">password generator</h3>
+			<!-- second information -->
+			<p class="project-info"></p>
+			<!-- second image -->
+			<div></div>
+
+		</div>
+
+	</div>
+	</section>
 	<section id="contact-me"></section>
 	</main>
 	<!-- footer -->
