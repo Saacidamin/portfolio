@@ -110,3 +110,11 @@ height: 170px;
 
 }
 
+#contact-me{
+  background-color: white;
+}
+
+.contact-me-icons{
+  text-align: left;
+  font-size: 30px;
+}
