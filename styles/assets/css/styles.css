@@ -1,0 +1,120 @@
+.body{
+  background-color: blue;
+}
+/* nav bar */
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  border: 5px;
+  border-color: whitesmoke;
+  border-style: solid;
+}
+
+.nav-link {
+  margin: 2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color:white;
+}
+/* about me */
+
+.about-me-name , .statement-info ,
+.skills , .list-of-skills , .about-header{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.about-me-name{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.skills , .about-header{
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.list-of-skills{
+  list-style: none;
+}
+
+.image-of-me{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* project cards */
+
+.projects-header{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+
+}
+
+.project-title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  padding: 5px;
+  color: white;
+}
+
+.project-info{
+text-align: center;
+margin: 20px;
+font-size: 15px;
+color: white;
+}
+
+
+
+.project-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100;
+  object-fit: contain;
+
+}
+
+.first-image{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.images{
+width: 100%;
+height: 170px;
+
+}
+
+.all-projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+
+}
+
+#contact-me{
+  background-color: white;
+}
+
+.contact-me-icons{
+  text-align: left;
+  font-size: 30px;
+}
